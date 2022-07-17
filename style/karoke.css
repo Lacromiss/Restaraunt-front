@@ -11,17 +11,16 @@ body{
     width: 100%;
     height:120px;
     margin:0;
-    position:fixed;
+    position: fixed;
   
   }
   .back-menu-center{
     width: 100%;
-    height:100%;
+    height:140px;
     margin: 0 auto;
     /* background-color: chartreuse; */
     display: flex;
     flex-wrap: nowrap;
-    background-color: rgba(8, 8, 8, 0.836);
   }
   .logo{
     width:22%;
@@ -57,7 +56,7 @@ body{
   .menu-items ul{
     list-style: none;
     display: flex;
-    margin-left: -120px;
+    margin-left: -180px;
     margin-top: -40px;
   }
   .menu-items li{
@@ -70,7 +69,8 @@ body{
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
     
     display: inline-block;
     position: relative;
@@ -142,9 +142,8 @@ body{
     display: none;
     border-radius: 5px;
     height: 700px;
-    background: url(../image/bg3.jpg)no-repeat;
-    object-fit: cover;
-  
+  background-image: url(../image/bg3.jpg)  ;
+  object-fit: cover;
     
     -webkit-animation-name: zoomIn;
     animation-name: zoomIn;
@@ -206,6 +205,8 @@ text-align: center;    }
     .toggle-menu{
        display: block; 
     }
+   
+    
     .back-menu-center{
         display: none;
 
@@ -223,7 +224,7 @@ text-align: center;    }
     .toggle-menu{
        display: none; 
     }
-   
+    
    
   
   }
@@ -253,8 +254,6 @@ width: 100%;
   object-fit: cover;
   z-index: 900;
   margin-top: 30px;
-
-  
   
 }
 .bg-gold{
@@ -268,4 +267,15 @@ width: 100%;
 .back-menu-center img{
   margin-left: 50px;
 
+}
+.active{
+  height: 20px;
+  border-top: solid 2px #bfa279;margin-top: 10px;color: #bfa279;
+}
+.toggle-menu img{
+  object-fit: cover;
+
+}
+#ssssssss{
+  margin-top: -10px;
 }

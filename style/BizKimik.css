@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(../image/bg3.jpg) center center fixed;
+    background: url(../image/background.jpg) center center fixed;
     background-size:cover ;
     min-height: 300vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

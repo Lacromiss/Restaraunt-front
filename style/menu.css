@@ -6,7 +6,7 @@ body{
     min-height: 300vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Open+Sans:wght@300;400&display=swap');
+
  
 
 
@@ -267,112 +267,217 @@ height: 120%;
   }
 
 
+/**
+* Template Name: Yummy - v1.0.0
+* Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 
+/*--------------------------------------------------------------
+# Set main reusable colors and fonts using CSS variables
+# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+--------------------------------------------------------------*/
+/* Fonts */
+:root {
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-primary: "Amatic SC", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+  }
+  
+  /* Colors */
+ 
+  /* Smooth scroll behavior */
+  :root {
+    scroll-behavior: smooth;
+  }
+  
+  /*--------------------------------------------------------------
+  # General
+  --------------------------------------------------------------*/
 
   
-  .cont {
-    position: relative;
+
+  
+  
+  
+  /*--------------------------------------------------------------
+  # Sections & Section Header
+  --------------------------------------------------------------*/
+  section {
+    padding: 80px 0;
+  }
+  
+  .section-bg {
+    background-color: #eee;
+  }
+  
+  .section-header {
     text-align: center;
-    color: black;
-    width: 80%;
-    margin: 0 auto;
+    padding-bottom: 30px;
   }
   
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-#hea{
-    background: url(../image/main.jpeg) no-repeat center center;
-    background-size:cover ;
-    height: 100vh;
-    width: 100%;
-}
-
-  .contt {
-    position: relative;
-    text-align: center;
-    color: black;
-    width: 100%;
-    margin: 0 auto;
+  .section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;
+    font-family: var(--font-default);
   }
   
-  .centeredd {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
- #hea img{
-    width: 100%;
-
- }
-#main111 p{
-    color: white;font-size: 15px;
-    
-}
-#main111 h1{
-    color: white;font-size: 30px;
-}
-#main111{
-    padding-top: 150px;
-
-}
-.cont {
-    position: relative;
-    text-align: center;
-    color: black;
-    width: 80%;
-    margin: 0 auto;
+  .section-header p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: var(--font-primary);
   }
   
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .section-header p span {
+    color: var(--color-primary);
   }
+ 
 
-  #introo{
-    padding-top: 200px;
+
+  
+ 
+  /*--------------------------------------------------------------
+  # Menu Section
+  --------------------------------------------------------------*/
+  .menu .nav-tabs {
+    border: 0;
   }
-  /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-    .cont{
-      width: 93%;
+  
+  .menu .nav-link {
+    margin: 0 10px;
+    padding: 10px 5px;
+    transition: 0.3s;
+    color: var(--color-secondary);
+    border-radius: 0;
+    cursor: pointer;
+    height: 100%;
+    border: 0;
+    border-bottom: 2px solid #b6b6bf;
+  }
+  
+  @media (max-width: 575px) {
+    .menu .nav-link {
+      margin: 0 10px;
+      padding: 10px 0;
     }
-    p{
+  }
+  
+  .menu .nav-link i {
+    padding-right: 15px;
+    font-size: 48px;
+  }
+  
+  .menu .nav-link h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    font-family: var(--font-secondary);
+  }
+  
+  @media (max-width: 575px) {
+    .menu .nav-link h4 {
       font-size: 16px;
     }
-    #toplar img{
-        margin-left: 70px;
-    }
   }
   
-
+  .menu .nav-link:hover {
+    color: var(--color-primary);
+  }
   
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (max-width: 768px) {
-    .cont{
-      width: 93%;
-    }
-    #toplar img{
-        margin-left: 70px;
-    }
-    #centeredd img{
-        width: 100%;
-    }
-    
+  .menu .nav-link.active {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
   }
-  #introo h1{
-    font-size: 67.5px;
+  
+  .menu .tab-content .tab-header {
+    padding: 30px 0;
   }
-  #toplar{
-    padding-top: 80px;padding-left: 110px;
+  
+  .menu .tab-content .tab-header p {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #676775;
+    margin-bottom: 0;
   }
-  #toplar img{
-    margin-top: 26px;
+  
+  .menu .tab-content .tab-header h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+  
+  .menu .tab-content .menu-item {
+    -moz-text-align-last: center;
+    text-align-last: center;
+  }
+  
+  .menu .tab-content .menu-item .menu-img {
+    padding: 0 60px;
+    margin-bottom: 15px;
+  }
+  
+  .menu .tab-content .menu-item h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--color-secondary);
+    font-family: var(--font-secondary);
+    font-weight: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .menu .tab-content .menu-item .ingredients {
+    font-family: var(--font-secondary);
+    color: #8d8d9b;
+    margin-bottom: 5px;
+  }
+  
+  .menu .tab-content .menu-item .price {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+  
+  .menu-item h4{
+    color: #bfa279;
+  }
+  .nav-item h4{
+    color: #bfa279;
+  }
+  
+.section-header {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;
+    font-family: var(--font-default);
+  }
+  
+  .section-header p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: var(--font-primary);
+  }
+  
+  .section-header p span {
+    color: var(--color-primary);
+  }
+  #menu{
+    padding-top: 160px;
+    padding-bottom: 800px;
   }

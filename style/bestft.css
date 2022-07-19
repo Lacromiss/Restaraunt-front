@@ -1,0 +1,75 @@
+#imgsl img{
+    width: 60%;
+}
+li{
+    list-style: none;
+    
+}
+#f1{
+    color: #bfa279;
+    text-decoration: none;
+}
+#f1:hover{
+    color: gray;
+    text-decoration: underline;
+
+}
+.bt{
+    border-bottom: 3px white solid;
+    width: 150px;
+    height: 15px;
+   
+}
+
+.day{
+    width: 450px;
+}
+#mondagg{
+    font-size: 13px;
+    font-weight: 800;margin-left: 25px;
+    width: 120px;
+    color: white;
+}
+.asadsas a{
+    color: wheat;
+    text-decoration: none;
+}
+.asadsas a:hover{
+    color: #bfa279;
+    text-decoration: none;
+}
+.asadsas p{
+    font-size: 16px;
+}
+.asadsas li{
+    width: 300px;
+}
+
+.cartttttt{
+    margin-top: 40px;
+}
+.cartttttt h6{
+    color: white;
+}
+#hhhhhhhhhh{
+    margin-top: 40px;
+}
+#hgdda{
+    color: white;
+}
+#pop{
+    color: white;
+    font-size: 14px;
+
+}
+#pop:hover{
+    color: aquamarine;
+    
+
+}
+#cozomorino{
+    color: white;
+}
+footer{
+    padding-top: 130px;
+}

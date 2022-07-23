@@ -10,7 +10,7 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        if (scroll > 300) {
+        if (scroll > 120) {
           $(".black").css("background" , "#181818de");
           $(".black").css("height" , "150px");
 

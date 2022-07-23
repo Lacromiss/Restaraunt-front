@@ -16,19 +16,26 @@ li{
 }
 .bt{
     border-bottom: 3px white solid;
-    width: 150px;
+    width:440px;
     height: 15px;
+    margin-top: -3px;
+ 
    
 }
 
-.day{
-    width: 450px;
-}
+
 #mondagg{
     font-size: 13px;
-    font-weight: 800;margin-left: 25px;
-    width: 120px;
+    font-weight: 800;
     color: white;
+    width: 330px;
+}
+#mondaggg{
+    font-size: 13px;
+    font-weight: 800;
+    color: white;
+    width: 470px;
+    text-align: center;
 }
 .asadsas a{
     color: wheat;
@@ -45,12 +52,7 @@ li{
     width: 300px;
 }
 
-.cartttttt{
-    margin-top: 40px;
-}
-.cartttttt h6{
-    color: white;
-}
+
 #hhhhhhhhhh{
     margin-top: 40px;
 }
@@ -60,16 +62,31 @@ li{
 #pop{
     color: white;
     font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
 
 }
-#pop:hover{
-    color: aquamarine;
-    
-
+#pop img:hover{
+    background-color: aquamarine;
+    border-radius: 30.5px;
 }
 #cozomorino{
     color: white;
 }
 footer{
     padding-top: 130px;
+}
+.cart{
+    margin: 0;
+    width: 100%;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+}
+.day{
+    justify-content: space-between;
+    width: 380px;
 }

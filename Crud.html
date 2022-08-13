@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="cont" style="width: 100%; height:100vh;background: #108dc7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    " >
+        <div class="qutu" >
+          <form method="post" >
+   
+            <div class="mb-3">
+                <label asp-for="Title"></label>
+                <br />
+                <input asp-for="Title"  style="width:80%;background: none;"/><br />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description1"></label>
+        
+                <input asp-for="Description1" style="width:80%; height: 200px;background: none; "  /><br />
+                <span asp-validation-for="Description1" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description2"></label>
+        
+                <input asp-for="Description2" style= " width:80%; height: 200px;background: none;font-weight: 700; font-size: 25px; "   />
+                <br />
+                <span asp-validation-for="Description2" class="text-danger"></span>
+            </div>
+            
+            <div class="mb-3">
+                <button type="submit" value="update">update</button>
+            </div>
+        </form>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>

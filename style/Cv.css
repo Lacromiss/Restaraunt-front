@@ -326,7 +326,7 @@ input[type=submit] {
   
 
 }
-
+body {overflow-x: hidden; font-family: roboto; -webkit-font-smoothing: antialiased; margin: 0;}
 
 input{
   background: none;
@@ -339,7 +339,7 @@ input{
 #ch{
   color: white;
 }
-#cv2{
+#Jobcv2{
   color: #bfa279;
 }
 #country{
@@ -351,3 +351,7 @@ option{
 @media only screen and (max-width: 800px) {
 
 }
+
+
+
+

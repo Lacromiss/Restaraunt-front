@@ -55,6 +55,7 @@
   overflow: hidden;
   position: relative;
   aspect-ratio: 1;
+  z-index: -200;
 }
 @media (min-width: 460px) {
   .slider__item {
